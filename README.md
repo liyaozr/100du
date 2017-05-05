@@ -174,3 +174,17 @@ tips：
 - 页面结构相似的先把公共部分写出来，私有的再巧用命名空间。
 
 -  一定要边写边测，并测试所有需要兼容的浏览器。
+
+5.bug
+
+IE7下，li设置了高度，也设置了行高，结果在IE7以下显示是这样的，真的是让人很生气！
+解决方法：加上vertical-align:middle;以后就正常了~~~
+
+chrome下显示效果：
+
+![chrome下](http://upload-images.jianshu.io/upload_images/4229306-facb1d363aaa7084.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/500)
+
+IE7下显示效果：
+
+![IE7下](http://upload-images.jianshu.io/upload_images/4229306-7bec7fa0c40b9495.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/500)
+
